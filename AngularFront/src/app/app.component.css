@@ -1,0 +1,11 @@
+.nav {
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 300px;
+    margin-left: 100px;
+}
+
+.nav-link2 {
+    margin-left: 200px;
+}

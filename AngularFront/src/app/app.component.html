@@ -1,0 +1,16 @@
+<nav class="navbar navbar-dark bg-dark">
+    <ul class="navbar-nav">
+        <div class="nav">
+            <a routerLink="employees" routerLinkActive="active" class="nav-link1">List Employees</a>
+            <a routerLink="creat-employee" routerLinkActive="active" class="nav-link2">Creat Employees</a>
+        </div>
+    </ul>
+    <button type="button" class="btn btn-danger" (click)="deleteAll()">Supprimer Tout </button>
+
+</nav>
+
+
+
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
